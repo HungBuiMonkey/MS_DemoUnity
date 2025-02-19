@@ -30,7 +30,7 @@ namespace Monkey.MonkeyBase.NativeBridge
         public bool Success { get; set; }
 
         [JsonProperty("result")]
-        public string Result { get; set; }
+        public object Result { get; set; }
     }
 
 
@@ -45,7 +45,7 @@ namespace Monkey.MonkeyBase.NativeBridge
         public string Type { get; set; }
 
         [JsonProperty("payload")]
-        public string Payload { get; set; }
+        public object Payload { get; set; }
     }
 
 }

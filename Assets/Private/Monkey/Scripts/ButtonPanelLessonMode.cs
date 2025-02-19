@@ -79,8 +79,8 @@ namespace Monkey.MJFiveToolTest
             Payload payload = (Payload)data;
             if (payload.Success)
             {
-                string jsonResult = payload.Result;
-                DataLessonResult dataLessonResult = JsonUtility.FromJson<DataLessonResult>(jsonResult);
+                var jsonResult = payload.Result as Newtonsoft.Json.Linq.JObject;
+                DataLessonResult dataLessonResult = jsonResult.ToObject<DataLessonResult>();
                 UserActionChanel dataUserAction = new UserActionChanel(TypeUserAction.LessonMode_SelectLesson, dataLessonResult);
                 ObserverManager.TriggerEvent(dataUserAction);
             }

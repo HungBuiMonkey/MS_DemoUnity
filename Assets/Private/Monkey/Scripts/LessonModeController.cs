@@ -358,11 +358,24 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
         return File.ReadAllText(path);
     }
 
+    [SerializeField] string fakeData;
     private void Start()
     {
         ReactNativeBridge.Instance.RegisterActionForRequestFromReactNative(RegisterAction);
         this.ObserverStartListening<UserActionChanel>();
-        this.ObserverStartListening<EventUserPlayGameChanel>();       
+        this.ObserverStartListening<EventUserPlayGameChanel>();
+
+        /*
+        ReceivedData receivedData = JsonConvert.DeserializeObject<ReceivedData>(fakeData);
+        var jsonResult = receivedData.Payload as Newtonsoft.Json.Linq.JObject;
+        DataFinishLessonResult dataFinishLessonResult = jsonResult.ToObject<DataFinishLessonResult>();
+        List<LessonStatus> listLesson = dataFinishLessonResult.list_lesson;
+        Debug.LogError(receivedData.Type.Equals("open_map") + "_" +listLesson.Count);
+        for (int count = 0; count < listLesson.Count; count++)
+        {           
+            Debug.LogError(receivedData.Type.Equals("open_map") + "_" + listLesson[count].lesson_id);
+        }    
+        */
     }
 
     private void OnDestroy()
@@ -393,8 +406,8 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
         Payload payload = (Payload)data;
         if (payload.Success)
         {
-            string jsonResult = payload.Result;
-            DataFinishLessonResult dataFinishLessonResult = JsonConvert.DeserializeObject<DataFinishLessonResult>(jsonResult);
+            var jsonResult = payload.Result as Newtonsoft.Json.Linq.JObject;
+            DataFinishLessonResult dataFinishLessonResult = jsonResult.ToObject<DataFinishLessonResult>();
             List<LessonStatus> listLesson = dataFinishLessonResult.list_lesson;
             for(int count = 0; count < listLesson.Count; count++)
             {
@@ -413,15 +426,19 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
     private void RegisterAction(string data)
     {
         ReceivedData receivedData = JsonConvert.DeserializeObject<ReceivedData>(data);
-        if(receivedData.Type.Equals("open_map"))
+        bool isCreateNew = dicButtonPabelLessonMode.Count <= 0;
+        Debug.Log("Implement Action");
+        if (receivedData.Type.Equals("open_map"))
         {
-            DataFinishLessonResult dataFinishLessonResult = JsonConvert.DeserializeObject<DataFinishLessonResult>(receivedData.Payload);
+            Debug.Log("Implement Action open_map");
+            var jsonResult = receivedData.Payload as Newtonsoft.Json.Linq.JObject;
+            DataFinishLessonResult dataFinishLessonResult = jsonResult.ToObject<DataFinishLessonResult>();
             List<LessonStatus> listLesson = dataFinishLessonResult.list_lesson;
             for (int count = 0; count < listLesson.Count; count++)
             {
                 LessonStatus lessonStatus = listLesson[count];
                 int idLesson = lessonStatus.lesson_id;
-                if (dicButtonPabelLessonMode.Count <= 0)
+                if (isCreateNew)
                 {
                     ButtonPanelLessonMode buttonPanelGameMode = Instantiate<ButtonPanelLessonMode>(this.buttonLessonPrefab);
                     buttonPanelGameMode.transform.SetParent(contentScrollView);
@@ -442,7 +459,9 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
         }
         else if (receivedData.Type.Equals("orientation"))
         {
-            Orientation orientation = JsonConvert.DeserializeObject<Orientation>(receivedData.Payload);
+            Debug.Log("Implement Action orientation");
+            var jsonResult = receivedData.Payload as Newtonsoft.Json.Linq.JObject;
+            Orientation orientation = jsonResult.ToObject<Orientation>();
             Orientation(orientation.orientation);
         }    
     }

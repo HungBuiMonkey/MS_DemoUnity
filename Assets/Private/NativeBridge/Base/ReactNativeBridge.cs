@@ -36,9 +36,8 @@ namespace Monkey.MonkeyBase.NativeBridge
             string messageID = response.Id;
             if (MethodActions.ContainsKey(messageID))
             {
-                Action<Payload> action = MethodActions[messageID];
-                Payload messageData = response.Payload;
-                action?.Invoke(messageData);
+                Action<object> action = MethodActions[messageID];;
+                action?.Invoke(response.Payload);
             }
         }
 

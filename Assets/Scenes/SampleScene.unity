@@ -758,6 +758,7 @@ MonoBehaviour:
   loadingObject: {fileID: 1725740805}
   canvasSelectLesson: {fileID: 1977554565}
   canvasGamePlay: {fileID: 1198982894}
+  fakeData: '{"type":"open_map","payload":"{\"list_lesson\":[{\"lesson_id\":1,\"status\":1},{\"lesson_id\":2,\"status\":1},{\"lesson_id\":3,\"status\":1},{\"lesson_id\":4,\"status\":1},{\"lesson_id\":5,\"status\":1},{\"lesson_id\":6,\"status\":1},{\"lesson_id\":7,\"status\":1},{\"lesson_id\":8,\"status\":1},{\"lesson_id\":9,\"status\":1},{\"lesson_id\":10,\"status\":1},{\"lesson_id\":11,\"status\":1},{\"lesson_id\":12,\"status\":1},{\"lesson_id\":13,\"status\":1},{\"lesson_id\":14,\"status\":1},{\"lesson_id\":15,\"status\":1}]}","id":"_0tp3yo12e"}'
 --- !u!1 &468566311
 GameObject:
   m_ObjectHideFlags: 0
