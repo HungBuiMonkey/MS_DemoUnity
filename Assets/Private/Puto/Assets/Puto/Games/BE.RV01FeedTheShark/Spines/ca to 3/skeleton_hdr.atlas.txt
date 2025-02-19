@@ -1,0 +1,111 @@
+
+skeleton_hdr.png
+size: 733,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+con-nguoi-1
+  rotate: false
+  xy: 216, 174
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+con-nguoi-2
+  rotate: false
+  xy: 216, 97
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 216, 20
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 646, 416
+  size: 85, 185
+  orig: 85, 185
+  offset: 0, 0
+  index: -1
+mieng
+  rotate: true
+  xy: 646, 28
+  size: 95, 65
+  orig: 95, 65
+  offset: 0, 0
+  index: -1
+no
+  rotate: true
+  xy: 646, 125
+  size: 100, 65
+  orig: 100, 65
+  offset: 0, 0
+  index: -1
+path
+  rotate: true
+  xy: 646, 227
+  size: 187, 75
+  orig: 187, 75
+  offset: 0, 0
+  index: -1
+ref
+  rotate: false
+  xy: 2, 603
+  size: 726, 427
+  orig: 726, 427
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 154, 199
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+than hong
+  rotate: true
+  xy: 2, 251
+  size: 350, 290
+  orig: 350, 290
+  offset: 0, 0
+  index: -1
+than vang
+  rotate: false
+  xy: 294, 311
+  size: 350, 290
+  orig: 350, 290
+  offset: 0, 0
+  index: -1
+than xanh
+  rotate: false
+  xy: 294, 19
+  size: 350, 290
+  orig: 350, 290
+  offset: 0, 0
+  index: -1
+vay-duoi
+  rotate: true
+  xy: 124, 2
+  size: 95, 90
+  orig: 95, 90
+  offset: 0, 0
+  index: -1
+vay-than-duoi
+  rotate: false
+  xy: 2, 7
+  size: 120, 90
+  orig: 120, 90
+  offset: 0, 0
+  index: -1
+vay-tren
+  rotate: false
+  xy: 2, 99
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+BE.PS02 - Re-fueling Spacecraft - Items_hdr.png
+size: 474,254
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ong
+  rotate: false
+  xy: 2, 2
+  size: 470, 250
+  orig: 470, 250
+  offset: 0, 0
+  index: -1

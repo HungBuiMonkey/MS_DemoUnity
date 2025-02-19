@@ -1,0 +1,331 @@
+
+BE.PS02 - Re-fueling Spacecraft - Tau_hdr.png
+size: 1982,2022
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bong kinh
+  rotate: false
+  xy: 1454, 1916
+  size: 120, 104
+  orig: 120, 104
+  offset: 0, 0
+  index: -1
+Chan ghe
+  rotate: false
+  xy: 2, 1838
+  size: 200, 140
+  orig: 200, 140
+  offset: 0, 0
+  index: -1
+Chan meo vang ngoi
+  rotate: true
+  xy: 1576, 1900
+  size: 120, 140
+  orig: 120, 140
+  offset: 0, 0
+  index: -1
+Chan meo xam ngoi
+  rotate: true
+  xy: 1718, 1900
+  size: 120, 140
+  orig: 120, 140
+  offset: 0, 0
+  index: -1
+Chan sau meo vang ngoi
+  rotate: true
+  xy: 1088, 1920
+  size: 100, 120
+  orig: 100, 120
+  offset: 0, 0
+  index: -1
+Chan sau meo xam ngoi
+  rotate: true
+  xy: 1210, 1920
+  size: 100, 120
+  orig: 100, 120
+  offset: 0, 0
+  index: -1
+Dau meo vang
+  rotate: false
+  xy: 1072, 1698
+  size: 240, 220
+  orig: 240, 220
+  offset: 0, 0
+  index: -1
+Dau meo xam
+  rotate: false
+  xy: 1314, 1694
+  size: 240, 220
+  orig: 240, 220
+  offset: 0, 0
+  index: -1
+Day an toan 3
+  rotate: true
+  xy: 366, 1960
+  size: 60, 120
+  orig: 60, 120
+  offset: 0, 0
+  index: -1
+Duoi tau
+  rotate: false
+  xy: 384, 1424
+  size: 440, 320
+  orig: 440, 320
+  offset: 0, 0
+  index: -1
+Ghe
+  rotate: true
+  xy: 826, 1336
+  size: 360, 380
+  orig: 360, 380
+  offset: 0, 0
+  index: -1
+Khoa an toan
+  rotate: false
+  xy: 916, 1940
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+Khoang ghe 1
+  rotate: false
+  xy: 2, 922
+  size: 760, 500
+  orig: 760, 500
+  offset: 0, 0
+  index: -1
+Khoang ghe 2
+  rotate: false
+  xy: 764, 654
+  size: 760, 500
+  orig: 760, 500
+  offset: 0, 0
+  index: -1
+Khoang ghe 3
+  rotate: false
+  xy: 2, 420
+  size: 760, 500
+  orig: 760, 500
+  offset: 0, 0
+  index: -1
+Mat meo mo
+  rotate: false
+  xy: 312, 1968
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+Mat meo nham
+  rotate: false
+  xy: 2, 2000
+  size: 48, 20
+  orig: 48, 20
+  offset: 0, 0
+  index: -1
+Max.Con nguoi a
+  rotate: true
+  xy: 998, 1940
+  size: 80, 88
+  orig: 80, 88
+  offset: 0, 0
+  index: -1
+Max.Con nguoi b
+  rotate: false
+  xy: 488, 1960
+  size: 88, 60
+  orig: 88, 60
+  offset: 0, 0
+  index: -1
+Max.Con nguoi c
+  rotate: false
+  xy: 578, 1960
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+Max.Dau
+  rotate: false
+  xy: 1208, 1156
+  size: 440, 440
+  orig: 440, 440
+  offset: 0, 0
+  index: -1
+Max.Khoang bung
+  rotate: true
+  xy: 204, 1798
+  size: 160, 180
+  orig: 160, 180
+  offset: 0, 0
+  index: -1
+Max.Khuon mat
+  rotate: false
+  xy: 2, 1456
+  size: 380, 340
+  orig: 380, 340
+  offset: 0, 0
+  index: -1
+Max.Long may
+  rotate: false
+  xy: 152, 1980
+  size: 72, 40
+  orig: 72, 40
+  offset: 0, 0
+  index: -1
+Max.Ma a
+  rotate: false
+  xy: 814, 1948
+  size: 100, 72
+  orig: 100, 72
+  offset: 0, 0
+  index: -1
+Max.Ma b
+  rotate: false
+  xy: 1332, 1920
+  size: 120, 100
+  orig: 120, 100
+  offset: 0, 0
+  index: -1
+Max.Mat
+  rotate: false
+  xy: 1860, 1900
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+Max.Mieng 1
+  rotate: false
+  xy: 102, 1988
+  size: 48, 32
+  orig: 48, 32
+  offset: 0, 0
+  index: -1
+Max.Mui
+  rotate: false
+  xy: 52, 2000
+  size: 48, 20
+  orig: 48, 20
+  offset: 0, 0
+  index: -1
+Max.Tai
+  rotate: false
+  xy: 386, 1758
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Max.Than
+  rotate: true
+  xy: 1556, 1598
+  size: 300, 320
+  orig: 300, 320
+  offset: 0, 0
+  index: -1
+Max.Toc 1
+  rotate: true
+  xy: 226, 1972
+  size: 48, 84
+  orig: 48, 84
+  offset: 0, 0
+  index: -1
+Max.Toc 2
+  rotate: true
+  xy: 700, 1960
+  size: 60, 112
+  orig: 60, 112
+  offset: 0, 0
+  index: -1
+Than meo vang ngoi
+  rotate: true
+  xy: 588, 1746
+  size: 200, 240
+  orig: 200, 240
+  offset: 0, 0
+  index: -1
+Than meo xam ngoi
+  rotate: true
+  xy: 830, 1738
+  size: 200, 240
+  orig: 200, 240
+  offset: 0, 0
+  index: -1
+Trai Dat
+  rotate: false
+  xy: 764, 2
+  size: 650, 650
+  orig: 650, 650
+  offset: 0, 0
+  index: -1
+
+BE.PS02 - Re-fueling Spacecraft - Tau_hdr2.png
+size: 1506,1486
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Anh sang
+  rotate: false
+  xy: 2, 824
+  size: 760, 660
+  orig: 760, 660
+  offset: 0, 0
+  index: -1
+Khoang chinh 1
+  rotate: false
+  xy: 764, 744
+  size: 740, 740
+  orig: 740, 740
+  offset: 0, 0
+  index: -1
+Khoang chinh 2
+  rotate: false
+  xy: 2, 82
+  size: 740, 740
+  orig: 740, 740
+  offset: 0, 0
+  index: -1
+Khoang chinh 3
+  rotate: false
+  xy: 744, 2
+  size: 740, 740
+  orig: 740, 740
+  offset: 0, 0
+  index: -1
+
+BE.PS02 - Re-fueling Spacecraft - Tau_hdr3.png
+size: 2004,1304
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Vet sang
+  rotate: false
+  xy: 2, 2
+  size: 2000, 1300
+  orig: 2000, 1300
+  offset: 0, 0
+  index: -1
+
+BE.PS02 - Re-fueling Spacecraft - Tau_hdr4.png
+size: 1704,2004
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tau
+  rotate: false
+  xy: 2, 2
+  size: 1700, 2000
+  orig: 1700, 2000
+  offset: 0, 0
+  index: -1
+
+BE.PS02 - Re-fueling Spacecraft - Tau_hdr5.png
+size: 1704,2004
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Vien tau
+  rotate: false
+  xy: 2, 2
+  size: 1700, 2000
+  orig: 1700, 2000
+  offset: 0, 0
+  index: -1

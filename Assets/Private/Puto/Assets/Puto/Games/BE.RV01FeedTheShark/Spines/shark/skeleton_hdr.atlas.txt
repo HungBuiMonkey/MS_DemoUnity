@@ -1,0 +1,146 @@
+
+skeleton_hdr.png
+size: 1809,1174
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 1295, 822
+  size: 500, 350
+  orig: 500, 350
+  offset: 0, 0
+  index: -1
+con-nguoi-1
+  rotate: false
+  xy: 1283, 475
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+con-nguoi-2
+  rotate: true
+  xy: 1307, 323
+  size: 150, 120
+  orig: 150, 120
+  offset: 0, 0
+  index: -1
+duoi-1
+  rotate: false
+  xy: 1125, 470
+  size: 156, 170
+  orig: 156, 170
+  offset: 0, 0
+  index: -1
+duoi-2
+  rotate: true
+  xy: 1429, 326
+  size: 147, 124
+  orig: 147, 124
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 1602, 103
+  size: 220, 200
+  orig: 220, 200
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 763, 642
+  size: 530, 530
+  orig: 530, 530
+  offset: 0, 0
+  index: -1
+khan-1
+  rotate: true
+  xy: 1295, 627
+  size: 193, 470
+  orig: 193, 470
+  offset: 0, 0
+  index: -1
+khan-2
+  rotate: false
+  xy: 1555, 325
+  size: 83, 74
+  orig: 83, 74
+  offset: 0, 0
+  index: -1
+khan-3
+  rotate: false
+  xy: 1384, 2
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+long-may
+  rotate: false
+  xy: 1437, 4
+  size: 90, 60
+  orig: 90, 60
+  offset: 0, 0
+  index: -1
+mieng
+  rotate: false
+  xy: 763, 280
+  size: 360, 360
+  orig: 360, 360
+  offset: 0, 0
+  index: -1
+nhai
+  rotate: false
+  xy: 1125, 288
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+ref-1
+  rotate: true
+  xy: 2, 29
+  size: 1143, 759
+  orig: 1143, 759
+  offset: 0, 0
+  index: -1
+thia
+  rotate: true
+  xy: 763, 6
+  size: 272, 91
+  orig: 272, 91
+  offset: 0, 0
+  index: -1
+vay-duoi-1
+  rotate: true
+  xy: 1084, 14
+  size: 264, 298
+  orig: 264, 298
+  offset: 0, 0
+  index: -1
+vay-duoi-2
+  rotate: true
+  xy: 1555, 401
+  size: 224, 252
+  orig: 224, 252
+  offset: 0, 0
+  index: -1
+vay-tay
+  rotate: true
+  xy: 1602, 12
+  size: 89, 52
+  orig: 89, 52
+  offset: 0, 0
+  index: -1
+vay-tren
+  rotate: true
+  xy: 856, 8
+  size: 270, 226
+  orig: 270, 226
+  offset: 0, 0
+  index: -1
+xien
+  rotate: false
+  xy: 1384, 66
+  size: 216, 255
+  orig: 216, 255
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d08a09435be4c440be25c4a4c2db2df, type: 3}
+  m_Name: BERV01ConfigSO
+  m_EditorClassIdentifier: 
+  audioBackground: {fileID: 8300000, guid: e6e61a1f4c76bbd428abe05b0adff5e7, type: 3}
+  introConfig:
+    audioCTAWord: {fileID: 8300000, guid: b09b8e54a6004274b9a72f9639fe42c6, type: 3}
+    audioCTAPhonic: {fileID: 8300000, guid: 30d327d955491ba478a0e2afb66466d0, type: 3}
+    timeDelay: 1000
+  clickConfig:
+    sfxCorrect: {fileID: 8300000, guid: 07accebcd0ea6664489789954049a247, type: 3}
+    sfxWrong: {fileID: 8300000, guid: 11173c648788a7b4e955a97d0ac8e559, type: 3}
+    sfxChomp: {fileID: 8300000, guid: 2224ec86249275b4a8c5fde91262e7b4, type: 3}
+  guidingConfig:
+    sfxAppear: {fileID: 8300000, guid: b17a466825b9bbf4fa283f420e0c9e86, type: 3}
+    sfxClick: {fileID: 8300000, guid: d07477cb77f62c446b597f73648f456e, type: 3}
+    sfxUnClick: {fileID: 8300000, guid: 72a675b330df75e43b5aee4f983497b6, type: 3}
+    timeWaitStartGuiding: 7000
+    timeDelay: 250
+  outroConfig:
+    sfxWin: {fileID: 8300000, guid: 939267cbe9d87a94990c0642f361e164, type: 3}
+    timeDelay: 2000

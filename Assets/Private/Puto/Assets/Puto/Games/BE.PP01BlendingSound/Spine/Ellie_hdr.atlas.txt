@@ -1,0 +1,279 @@
+
+Ellie_hdr.png
+size: 2001,1714
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Asset 1
+  rotate: false
+  xy: 2, 850
+  size: 1384, 862
+  orig: 1384, 862
+  offset: 0, 0
+  index: -1
+Bong_mat
+  rotate: true
+  xy: 1942, 156
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+But
+  rotate: true
+  xy: 1132, 591
+  size: 47, 98
+  orig: 47, 98
+  offset: 0, 0
+  index: -1
+Chan
+  rotate: false
+  xy: 1866, 1517
+  size: 133, 195
+  orig: 133, 195
+  offset: 0, 0
+  index: -1
+Co_ao
+  rotate: true
+  xy: 1876, 307
+  size: 118, 100
+  orig: 118, 100
+  offset: 0, 0
+  index: -1
+Con_nguoi
+  rotate: true
+  xy: 898, 5
+  size: 154, 155
+  orig: 154, 155
+  offset: 0, 0
+  index: -1
+Con_nguoi_a
+  rotate: true
+  xy: 1866, 1147
+  size: 147, 100
+  orig: 147, 100
+  offset: 0, 0
+  index: -1
+Con_nguoi_b
+  rotate: true
+  xy: 1876, 427
+  size: 147, 100
+  orig: 147, 100
+  offset: 0, 0
+  index: -1
+Con_nguoi_c
+  rotate: true
+  xy: 1758, 2
+  size: 124, 72
+  orig: 125, 73
+  offset: 0, 1
+  index: -1
+Con_nguoi_d
+  rotate: false
+  xy: 1786, 149
+  size: 154, 155
+  orig: 154, 155
+  offset: 0, 0
+  index: -1
+Con_nguoi_e
+  rotate: true
+  xy: 1609, 2
+  size: 124, 147
+  orig: 124, 147
+  offset: 0, 0
+  index: -1
+Con_nguoi_f
+  rotate: true
+  xy: 1839, 576
+  size: 105, 125
+  orig: 105, 125
+  offset: 0, 0
+  index: -1
+Con_nguoi_g
+  rotate: true
+  xy: 1232, 572
+  size: 66, 79
+  orig: 66, 79
+  offset: 0, 0
+  index: -1
+Dau
+  rotate: false
+  xy: 2, 300
+  size: 574, 548
+  orig: 574, 548
+  offset: 0, 0
+  index: -1
+Gay
+  rotate: true
+  xy: 1866, 1296
+  size: 219, 132
+  orig: 219, 132
+  offset: 0, 0
+  index: -1
+Long_may
+  rotate: true
+  xy: 564, 216
+  size: 82, 11
+  orig: 82, 11
+  offset: 0, 0
+  index: -1
+Ma_a
+  rotate: true
+  xy: 1832, 10
+  size: 137, 134
+  orig: 137, 134
+  offset: 0, 0
+  index: -1
+Ma_b
+  rotate: false
+  xy: 732, 9
+  size: 164, 150
+  orig: 164, 150
+  offset: 0, 0
+  index: -1
+Ma_c
+  rotate: false
+  xy: 1409, 9
+  size: 158, 81
+  orig: 158, 81
+  offset: 0, 0
+  index: -1
+Mat
+  rotate: false
+  xy: 1609, 128
+  size: 175, 176
+  orig: 175, 176
+  offset: 0, 0
+  index: -1
+Mi_mat
+  rotate: false
+  xy: 1132, 640
+  size: 209, 208
+  orig: 209, 208
+  offset: 0, 0
+  index: -1
+Mieng_1
+  rotate: false
+  xy: 1409, 92
+  size: 198, 215
+  orig: 198, 215
+  offset: 0, 0
+  index: -1
+Mieng_2
+  rotate: true
+  xy: 1661, 306
+  size: 263, 213
+  orig: 263, 213
+  offset: 0, 0
+  index: -1
+Mieng_3
+  rotate: true
+  xy: 1055, 79
+  size: 80, 57
+  orig: 80, 57
+  offset: 0, 0
+  index: -1
+Mo_hoi_a
+  rotate: false
+  xy: 1968, 1247
+  size: 31, 47
+  orig: 31, 47
+  offset: 0, 0
+  index: -1
+Mo_hoi_b
+  rotate: false
+  xy: 1119, 315
+  size: 43, 57
+  orig: 43, 57
+  offset: 0, 0
+  index: -1
+Nuoc_mat
+  rotate: false
+  xy: 1866, 1110
+  size: 91, 35
+  orig: 91, 35
+  offset: 0, 0
+  index: -1
+Phan
+  rotate: true
+  xy: 1942, 214
+  size: 91, 57
+  orig: 91, 57
+  offset: 0, 0
+  index: -1
+Tai
+  rotate: true
+  xy: 1388, 1095
+  size: 617, 476
+  orig: 617, 476
+  offset: 0, 0
+  index: -1
+Tay
+  rotate: true
+  xy: 564, 12
+  size: 147, 166
+  orig: 147, 166
+  offset: 0, 0
+  index: -1
+Than
+  rotate: false
+  xy: 1119, 31
+  size: 288, 276
+  orig: 288, 276
+  offset: 0, 0
+  index: -1
+Tui
+  rotate: true
+  xy: 1839, 683
+  size: 148, 93
+  orig: 148, 93
+  offset: 0, 0
+  index: -1
+Voi_1
+  rotate: true
+  xy: 578, 374
+  size: 212, 586
+  orig: 212, 586
+  offset: 0, 0
+  index: -1
+Voi_2
+  rotate: false
+  xy: 1388, 833
+  size: 492, 260
+  orig: 492, 260
+  offset: 0, 0
+  index: -1
+Voi_3
+  rotate: false
+  xy: 1166, 309
+  size: 493, 260
+  orig: 493, 260
+  offset: 0, 0
+  index: -1
+Voi_4
+  rotate: false
+  xy: 1343, 571
+  size: 494, 260
+  orig: 494, 260
+  offset: 0, 0
+  index: -1
+Voi_5
+  rotate: false
+  xy: 2, 38
+  size: 560, 260
+  orig: 560, 260
+  offset: 0, 0
+  index: -1
+Voi_6
+  rotate: false
+  xy: 578, 588
+  size: 552, 260
+  orig: 552, 260
+  offset: 0, 0
+  index: -1
+Voi_7
+  rotate: true
+  xy: 578, 161
+  size: 211, 539
+  orig: 211, 539
+  offset: 0, 0
+  index: -1

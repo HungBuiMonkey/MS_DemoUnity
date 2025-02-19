@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a960fc6da4fea4eab3d6ef7fda2ce7, type: 3}
+  m_Name: BEPS01RFSConfigSO
+  m_EditorClassIdentifier: 
+  audioBackground: {fileID: 8300000, guid: 25b1cfed9c2c3c44194a75df4eb607e5, type: 3}
+  introConfig:
+    audiosTopic:
+    - {fileID: 8300000, guid: 310c6099a0bb1ab4f95c9fdd3eb67ccb, type: 3}
+    - {fileID: 8300000, guid: db2c808d806a43541ac20f90e6b496eb, type: 3}
+    timeDelay: 250
+  clickConfig:
+    sfxClick: {fileID: 8300000, guid: 9986617ebc964354d924da1b570895ae, type: 3}
+    sfxCat: {fileID: 8300000, guid: 1211f04b845288f4aba61d068d5563d3, type: 3}
+    timeDelay: 500
+  skeletonConfig:
+    tubeCorrect: Ong bao dung
+    tubeWrong: Ong bao sai
+    tubeNormal: Ong normal
+    catYellowIdle: Meo vang Idle
+    catYellowMoveToSpaceship: Meo vang chay vao tau
+    catYellowMoveToStation: Meo vang di vao tram
+    catYellowSitInTheChair: Meo vang ngoi vao ghe
+    catGrayIdle: Meo xam Idle
+    catGrayMoveToSpaceship: Meo xam chay vao tau
+    catGrayMoveToStation: Meo xam di vao tram
+    catGraySitInTheChair: Meo xam ngoi vao ghe
+    spaceshipFirstTurnIdle: Tau Idle - Luot 1
+    spaceshipFirstTurnIdle_Blink: Tau Idle - Luot 1 - Blink
+    spaceshipSecondTurnIdle: Tau Idle - Luot 2
+    spaceshipSecondTurnIdle_Blink: Tau Idle - Luot 2 - Blink
+    spaceshipMoveToFirstStation: Tau di chuyen toi tram 1
+    spaceshipMoveToSecondStation: Tau di chuyen toi tram 2
+    spaceshipMoveToEarth: Tau di chuyen ve Trai Dat
+    fireworks:
+    - Phao hoa 1
+    - Phao hoa 2
+    - Phao hoa 3
+    sfxCheer: {fileID: 8300000, guid: 0a3376c207368764fbeb46c90f34f417, type: 3}
+    sfxImpact: {fileID: 8300000, guid: 541952c7f0820a14fa6e180e457bf7e1, type: 3}
+    sfxMagic: {fileID: 8300000, guid: 0a4f1093127f44d4a9d36829a20d9578, type: 3}
+    sfxSpaceshipOn: {fileID: 8300000, guid: 8d1f2ff27607a2c4084a8cb6cc447068, type: 3}
+    sfxSpaceshipOff: {fileID: 8300000, guid: a704d81986569cb45ba9289969df4bd7, type: 3}
+    sfxSpaceshipFly_1: {fileID: 8300000, guid: ce96c90438752384bb9428f8d9e4287c, type: 3}
+    sfxSpaceshipFly_2: {fileID: 8300000, guid: 05e4b120c955b8945837d86ed42d0194, type: 3}
+    sfxSpaceshipFly_3: {fileID: 8300000, guid: 3b037273f481ed344b6724f3c3a5efcc, type: 3}
+  guidingConfig:
+    sfxAppear: {fileID: 8300000, guid: ec73cf5bda25afc408a925763f53f22e, type: 3}
+    sfxClick: {fileID: 8300000, guid: 9986617ebc964354d924da1b570895ae, type: 3}
+    sfxUnClick: {fileID: 8300000, guid: 8712934bf1f83c44797f1135f60ea501, type: 3}
+    secondWaitStartGuiding: 5
+    secondDelay: 0.25
+  tubeConfig:
+    textFade:
+      serializedVersion: 2
+      rgba: 16777215
+    textNormal:
+      serializedVersion: 2
+      rgba: 4294962765
+    textCorrect:
+      serializedVersion: 2
+      rgba: 4284029952
+    textWrong:
+      serializedVersion: 2
+      rgba: 4278190138
+    colorNormal:
+      background:
+        serializedVersion: 2
+        rgba: 4287836682
+      box:
+        serializedVersion: 2
+        rgba: 4284029952
+    colorCorrect:
+      background:
+        serializedVersion: 2
+        rgba: 4293721856
+      box:
+        serializedVersion: 2
+        rgba: 4293910016
+    colorWrong:
+      background:
+        serializedVersion: 2
+        rgba: 4278224383
+      box:
+        serializedVersion: 2
+        rgba: 4278207231
+  dragResultConfig:
+    sfxCorrect: {fileID: 8300000, guid: adad8d63cd4799643b758870304e8561, type: 3}
+    sfxWrong: {fileID: 8300000, guid: 2bc2bcd6be08496498fa8259a6ca1fb8, type: 3}
+    timeDelay: 200
+  nextTurnConfig:
+    sfxCelestialWin: {fileID: 8300000, guid: 4a67c1c21a695364ea44509a296c6afb, type: 3}
+    timeDelay: 250

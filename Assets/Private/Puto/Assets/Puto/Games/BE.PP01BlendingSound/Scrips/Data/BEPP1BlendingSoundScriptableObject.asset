@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130f85fa87add464dbcaf36b4d345435, type: 3}
+  m_Name: BEPP1BlendingSoundScriptableObject
+  m_EditorClassIdentifier: 
+  introDataConfig:
+    miliSecondStartDelay: 1000
+    secondTimeZoom: 1.5
+    audioHandup: {fileID: 8300000, guid: 0fdbd55fd2001864c931e2d6bb6dd4ac, type: 3}
+    audioGuiding: {fileID: 8300000, guid: ea1677f96330dcb4bb37d25635cfe2b2, type: 3}
+  guidingDataConfig:
+    audioGuiding: {fileID: 8300000, guid: ea1677f96330dcb4bb37d25635cfe2b2, type: 3}
+  clickEllieDataConfig:
+    audioGuiding: {fileID: 8300000, guid: 2873fe5503c33e84790d432a29039018, type: 3}
+  clickAnswerDataConfig:
+    audioCorrect: {fileID: 8300000, guid: 846b749a7ebe7fc49bc5cfa10675eba3, type: 3}
+    audioWrong: {fileID: 8300000, guid: a3d11606f8afba5489d6372bd92f0ca2, type: 3}
+    audioHandDown: {fileID: 8300000, guid: 4704dbcc495fa394eb69612d54a2b371, type: 3}

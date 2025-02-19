@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84082d7e18ea4c74a9d07fb3c00d15a5, type: 3}
+  m_Name: BEPS02FlyingOwlsScriptableObject
+  m_EditorClassIdentifier: 
+  audioBackground: {fileID: 8300000, guid: db1c190a8a88d2b40b099c482169e7ab, type: 3}
+  introConfig:
+    audiosTopic:
+    - {fileID: 8300000, guid: bf269fea91a91434992aa6c368414c96, type: 3}
+    - {fileID: 8300000, guid: 6914d895b1e52c74cba7c9838e4b60be, type: 3}
+    - {fileID: 8300000, guid: adeaa85f6878b6347ad27af99aaa573e, type: 3}
+    miliSecondDelay: 250
+  dragConfig:
+    sfxCorrect: {fileID: 8300000, guid: 0981fece3d961474a88066a3af8d2418, type: 3}
+    sfxWrong: {fileID: 8300000, guid: 93541f6d1d35e47478395b929c31c22c, type: 3}
+    sfxGuiding: {fileID: 8300000, guid: 315038ba20a725a4698f6f157b243267, type: 3}
+    sfxWin: {fileID: 8300000, guid: bbccfe97c3cdbcb4fbadfe39eb80569f, type: 3}
+    miliSecondDelay: 250
+  owlConfig:
+    colorSync:
+      serializedVersion: 2
+      rgba: 4294353407
+    colorNormal:
+      serializedVersion: 2
+      rgba: 4285807244
+    colorDisable:
+      serializedVersion: 2
+      rgba: 16777215
+    sfxOwlHoot: {fileID: 8300000, guid: ab85bade5b4acaa48b068649e334c8c6, type: 3}
+    sfxOwlFly: {fileID: 8300000, guid: 56e733e1036ee8f41b7bb855600a45ba, type: 3}
+    owlFly: Owl 1 Fly
+    owlFlyToNormal: Owl 1 Fly to Normal
+    owlNormal: Owl 1 normal
+    owlNormalToFly: Owl 1 Normal to Fly
+    owlUserTap: Owl 1 user tap
+    owlTapCorrect: Owl 1 user tap dung
+    owlTapWrong: Owl 1 user tap sai
+    owlTapAndHold: "Owl 1 user tap v\xE0 giu"
+    owlDrop: Owl 1 user tha cu ra
+  guidingConfig:
+    audiosTopic:
+    - {fileID: 8300000, guid: bf269fea91a91434992aa6c368414c96, type: 3}
+    - {fileID: 8300000, guid: 6914d895b1e52c74cba7c9838e4b60be, type: 3}
+    - {fileID: 8300000, guid: adeaa85f6878b6347ad27af99aaa573e, type: 3}
+    sfxAppear: {fileID: 8300000, guid: 315038ba20a725a4698f6f157b243267, type: 3}
+    secondWaitStartGuiding: 5
+    secondDelay: 0.25

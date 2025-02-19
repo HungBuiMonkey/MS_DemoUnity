@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8eb4046f78f66d4eaecd3cd60a228de, type: 3}
+  m_Name: BEID01MJConfigScriptableObject
+  m_EditorClassIdentifier: 
+  introConfig:
+    milisecondTimeDelay: 200
+    topicSoundMJ: {fileID: 8300000, guid: f87e5428826834544881191ec162467a, type: 3}
+    popupSound: {fileID: 8300000, guid: 606e1e34becd77b448d9cd2479bc8736, type: 3}
+  guidingConfig:
+    milisecondTimeWaitGuiding: 5000
+    milisecondTimeEachGuiding: 2000
+    timeDelay: 0.5
+    guidingAudio: {fileID: 8300000, guid: 2b1bf0338efca7640859e783dcf24529, type: 3}
+  listenConfig:
+    sfxClickGift: {fileID: 8300000, guid: 606e1e34becd77b448d9cd2479bc8736, type: 3}
+    milisecondTimeDelay500: 500
+    milisecondTimeDelay200: 200
+  playConfig:
+    yeahAudio: {fileID: 8300000, guid: 960568881240a0a4f9ccc5bf2b9ed5f7, type: 3}
+    milisecondDelayAppearNextButton: 1000
+    timeFadeOut: 0.5

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925b52d9b036fbe47a097921fa6a9e43, type: 3}
+  m_Name: BERV01MookData
+  m_EditorClassIdentifier: 
+  mookData:
+    audioMain: {fileID: 8300000, guid: afa8bf24cea46c24cbed1cdcc199925f, type: 3}
+    listData:
+    - text: fl
+      audio: {fileID: 8300000, guid: ca142f24e1d21f249b97bde13f3d0a38, type: 3}
+      isCorrect: 0
+    - text: sl
+      audio: {fileID: 8300000, guid: afa8bf24cea46c24cbed1cdcc199925f, type: 3}
+      isCorrect: 1
+    - text: g
+      audio: {fileID: 8300000, guid: 7311f057a13b19f4f98b807caa052d1d, type: 3}
+      isCorrect: 0
+    - text: g
+      audio: {fileID: 8300000, guid: 7311f057a13b19f4f98b807caa052d1d, type: 3}
+      isCorrect: 0
+    - text: sl
+      audio: {fileID: 8300000, guid: afa8bf24cea46c24cbed1cdcc199925f, type: 3}
+      isCorrect: 1
+    - text: sl
+      audio: {fileID: 8300000, guid: afa8bf24cea46c24cbed1cdcc199925f, type: 3}
+      isCorrect: 1
+    - text: a
+      audio: {fileID: 8300000, guid: cab5c956621dd5f4ab8f0b85c936aa01, type: 3}
+      isCorrect: 0
+    - text: sl
+      audio: {fileID: 8300000, guid: afa8bf24cea46c24cbed1cdcc199925f, type: 3}
+      isCorrect: 1
+    - text: fl
+      audio: {fileID: 8300000, guid: ca142f24e1d21f249b97bde13f3d0a38, type: 3}
+      isCorrect: 0
+    - text: g
+      audio: {fileID: 8300000, guid: 7311f057a13b19f4f98b807caa052d1d, type: 3}
+      isCorrect: 0
+    - text: sl
+      audio: {fileID: 8300000, guid: afa8bf24cea46c24cbed1cdcc199925f, type: 3}
+      isCorrect: 1
+    - text: a
+      audio: {fileID: 8300000, guid: cab5c956621dd5f4ab8f0b85c936aa01, type: 3}
+      isCorrect: 0

@@ -1,0 +1,125 @@
+
+skeleton_hdr.png
+size: 693,366
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ref
+  rotate: false
+  xy: 2, 134
+  size: 238, 230
+  orig: 238, 230
+  offset: 0, 0
+  index: -1
+rong-bien-A1
+  rotate: true
+  xy: 2, 68
+  size: 64, 235
+  orig: 64, 235
+  offset: 0, 0
+  index: -1
+rong-bien-A2
+  rotate: true
+  xy: 242, 115
+  size: 44, 173
+  orig: 44, 173
+  offset: 0, 0
+  index: -1
+rong-bien-A3
+  rotate: true
+  xy: 479, 293
+  size: 71, 212
+  orig: 71, 212
+  offset: 0, 0
+  index: -1
+rong-bien-A4
+  rotate: true
+  xy: 414, 55
+  size: 44, 136
+  orig: 44, 136
+  offset: 0, 0
+  index: -1
+rong-bien-B1
+  rotate: true
+  xy: 242, 300
+  size: 64, 235
+  orig: 64, 235
+  offset: 0, 0
+  index: -1
+rong-bien-B2
+  rotate: true
+  xy: 239, 69
+  size: 44, 173
+  orig: 44, 173
+  offset: 0, 0
+  index: -1
+rong-bien-B3
+  rotate: true
+  xy: 242, 161
+  size: 71, 212
+  orig: 71, 212
+  offset: 0, 0
+  index: -1
+rong-bien-B4
+  rotate: true
+  xy: 414, 9
+  size: 44, 136
+  orig: 44, 136
+  offset: 0, 0
+  index: -1
+rong-bien-C1
+  rotate: true
+  xy: 2, 2
+  size: 64, 235
+  orig: 64, 235
+  offset: 0, 0
+  index: -1
+rong-bien-C2
+  rotate: true
+  xy: 239, 23
+  size: 44, 173
+  orig: 44, 173
+  offset: 0, 0
+  index: -1
+rong-bien-C3
+  rotate: true
+  xy: 479, 220
+  size: 71, 212
+  orig: 71, 212
+  offset: 0, 0
+  index: -1
+rong-bien-C4
+  rotate: false
+  xy: 592, 9
+  size: 44, 136
+  orig: 44, 136
+  offset: 0, 0
+  index: -1
+rong-bien-D1
+  rotate: true
+  xy: 242, 234
+  size: 64, 235
+  orig: 64, 235
+  offset: 0, 0
+  index: -1
+rong-bien-D2
+  rotate: true
+  xy: 417, 101
+  size: 44, 173
+  orig: 44, 173
+  offset: 0, 0
+  index: -1
+rong-bien-D3
+  rotate: true
+  xy: 456, 147
+  size: 71, 212
+  orig: 71, 212
+  offset: 0, 0
+  index: -1
+rong-bien-D4
+  rotate: false
+  xy: 638, 9
+  size: 44, 136
+  orig: 44, 136
+  offset: 0, 0
+  index: -1
