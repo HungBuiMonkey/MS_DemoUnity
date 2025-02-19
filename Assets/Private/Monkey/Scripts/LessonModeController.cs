@@ -362,7 +362,7 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
     {
         ReactNativeBridge.Instance.RegisterActionForRequestFromReactNative(RegisterAction);
         this.ObserverStartListening<UserActionChanel>();
-        this.ObserverStartListening<EventUserPlayGameChanel>();
+        this.ObserverStartListening<EventUserPlayGameChanel>();       
     }
 
     private void OnDestroy()
@@ -382,7 +382,7 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
             dataFinishLessonRequest.lesson_id = idLessonSelected;
             dataFinishLessonRequest.status = (int)ButtonPanelLessonMode.State.Finish;
             string data = JsonUtility.ToJson(dataFinishLessonRequest);
-            ReactNativeBridge.Instance.SendDataToNative("GetDataLesson", data, CallBack);
+            ReactNativeBridge.Instance.SendDataToNative("FinishLesson", data, CallBack);
         }
     }
 
