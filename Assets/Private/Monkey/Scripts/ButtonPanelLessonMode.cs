@@ -66,12 +66,7 @@ namespace Monkey.MJFiveToolTest
         }
 
         public void OnClick()
-        {
-            DataLessonResult dataLessonResult = JsonUtility.FromJson<DataLessonResult>(dataFake);
-            UserActionChanel dataUserAction = new UserActionChanel(TypeUserAction.LessonMode_SelectLesson, dataLessonResult);
-            ObserverManager.TriggerEvent(dataUserAction);
-
-            return;
+        {           
             DataLessonRequest dataLesson = new DataLessonRequest();
             dataLesson.lesson_id = idLesson;
             string data = JsonUtility.ToJson(dataLesson);
