@@ -2895,9 +2895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   labelName: {fileID: 773888782}
   image: {fileID: 1960059765}
-  dataFake: '{       "activity_path": "C:\\Users\\Monkey\\AppData\\LocalLow\\DefaultCompany\\game_demo_monkey\\extract\\game\\activities\\1528589-60755-dne",      
-    "word_path": "C:\\Users\\Monkey\\AppData\\LocalLow\\DefaultCompany\\game_demo_monkey\\zips\\game\\words",      
-    "game_id": 1000157     }'
+  dataFake: '{"id":"16","type":"GetDataLesson","payload":{"success":true,"result":{"game_id":1000157,"activity_path":"C:\\Users\\Monkey\\AppData\\LocalLow\\DefaultCompany\\game_demo_monkey\\extract\\game\\activities\\1528589-60755-dne","word_path":"C:\\Users\\Monkey\\AppData\\LocalLow\\DefaultCompany\\game_demo_monkey\\zips\\game\\words"}}}'
 --- !u!1 &1977554565
 GameObject:
   m_ObjectHideFlags: 0

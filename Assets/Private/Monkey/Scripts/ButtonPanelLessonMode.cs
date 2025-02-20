@@ -66,7 +66,7 @@ namespace Monkey.MJFiveToolTest
         }
 
         public void OnClick()
-        {           
+        {          
             DataLessonRequest dataLesson = new DataLessonRequest();
             dataLesson.lesson_id = idLesson;
             string data = JsonUtility.ToJson(dataLesson);
@@ -77,6 +77,7 @@ namespace Monkey.MJFiveToolTest
         private void CallBack(object data)
         {
             Payload payload = (Payload)data;
+            Debug.Log($"GetDataLesson {payload.Success}");
             if (payload.Success)
             {
                 var jsonResult = payload.Result as Newtonsoft.Json.Linq.JObject;
@@ -94,6 +95,7 @@ namespace Monkey.MJFiveToolTest
 
     public class DataLessonResult
     {
+        public int lesson_id;
         public string activity_path;
         public string word_path;
         public int game_id;

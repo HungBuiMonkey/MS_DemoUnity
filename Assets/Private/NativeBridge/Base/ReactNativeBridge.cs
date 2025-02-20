@@ -38,6 +38,7 @@ namespace Monkey.MonkeyBase.NativeBridge
             {
                 Action<object> action = MethodActions[messageID];;
                 action?.Invoke(response.Payload);
+                MethodActions.Remove(messageID);
             }
         }
 

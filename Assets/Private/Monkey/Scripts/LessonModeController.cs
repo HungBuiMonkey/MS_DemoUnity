@@ -39,17 +39,22 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
         }
         else if (eventType.TypeData == TypeUserAction.LessonMode_SelectLesson)
         {
+            Debug.Log($"GetDataLesson LessonMode_SelectLesson");
             loadingObject.SetActive(true);
            
             DataLessonResult dataLessonResult = (DataLessonResult)(eventType.Data);
-            idLessonSelected = dataLessonResult.game_id;
+            idLessonSelected = dataLessonResult.lesson_id;
+            int gameID = dataLessonResult.game_id;
+            Debug.Log($"GetDataLesson {gameID}");
             if (dataLessonResult.game_id != 0)
             {
-                GetDataActiviti(dataLessonResult.activity_path, dataLessonResult.word_path, idLessonSelected);
+                GetDataActiviti(dataLessonResult.activity_path, dataLessonResult.word_path, gameID);
             }
             else
             {
-                GameConfig gameConfig = GetGameDefine(idLessonSelected, listGameScripableObject.ListGameConfigs);
+                Debug.Log($"GetDataLesson get data word");
+                GameConfig gameConfig = GetGameDefine(gameID, listGameScripableObject.ListGameConfigs);
+                Debug.Log($"GetDataLesson {gameConfig.}");
                 GameObject prefabsGame = Resources.Load<GameObject>(gameConfig.NamePrefabs);
                 gamePlayObject = Instantiate(prefabsGame);
                 SetActiveCanvasGamePlay(true);
