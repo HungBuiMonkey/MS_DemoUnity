@@ -430,16 +430,18 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
         Debug.Log("Implement Action");
         if (receivedData.Type.Equals("open_map"))
         {
-            Debug.Log("Implement Action open_map");
+           
             var jsonResult = receivedData.Payload as Newtonsoft.Json.Linq.JObject;
             DataFinishLessonResult dataFinishLessonResult = jsonResult.ToObject<DataFinishLessonResult>();
             List<LessonStatus> listLesson = dataFinishLessonResult.list_lesson;
+            Debug.Log($"Implement Action open_map {isCreateNew} {listLesson.Count}");
             for (int count = 0; count < listLesson.Count; count++)
             {
                 LessonStatus lessonStatus = listLesson[count];
                 int idLesson = lessonStatus.lesson_id;
                 if (isCreateNew)
                 {
+                    Debug.Log($"Create open_map {count}");
                     ButtonPanelLessonMode buttonPanelGameMode = Instantiate<ButtonPanelLessonMode>(this.buttonLessonPrefab);
                     buttonPanelGameMode.transform.SetParent(contentScrollView);
                     buttonPanelGameMode.transform.localScale = Vector3.one;
