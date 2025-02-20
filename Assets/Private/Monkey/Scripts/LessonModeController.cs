@@ -54,7 +54,6 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
             {
                 Debug.Log($"GetDataLesson get data word");
                 GameConfig gameConfig = GetGameDefine(gameID, listGameScripableObject.ListGameConfigs);
-                Debug.Log($"GetDataLesson {gameConfig.}");
                 GameObject prefabsGame = Resources.Load<GameObject>(gameConfig.NamePrefabs);
                 gamePlayObject = Instantiate(prefabsGame);
                 SetActiveCanvasGamePlay(true);
