@@ -372,8 +372,20 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
         List<LessonStatus> listLesson = dataFinishLessonResult.list_lesson;
         Debug.LogError(receivedData.Type.Equals("open_map") + "_" +listLesson.Count);
         for (int count = 0; count < listLesson.Count; count++)
-        {           
-            Debug.LogError(receivedData.Type.Equals("open_map") + "_" + listLesson[count].lesson_id);
+        {
+            LessonStatus lessonStatus = listLesson[count];
+            int idLesson = lessonStatus.lesson_id;
+            ButtonPanelLessonMode buttonPanelGameMode = Instantiate<ButtonPanelLessonMode>(this.buttonLessonPrefab);
+            buttonPanelGameMode.transform.SetParent(contentScrollView);
+            buttonPanelGameMode.transform.localScale = Vector3.one;
+
+            RectTransform rectTransform = buttonPanelGameMode.GetComponent<RectTransform>();
+            Vector3 newPosition = rectTransform.anchoredPosition3D;
+            newPosition.z = 0; // Set giá trị Z mong muốn
+            rectTransform.anchoredPosition3D = newPosition;
+
+            buttonPanelGameMode.SetData($"Lesson {count + 1}", idLesson, ButtonPanelLessonMode.State.Lock);
+            dicButtonPabelLessonMode.Add(idLesson, buttonPanelGameMode);
         }    
         */
     }
@@ -445,6 +457,13 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
                     ButtonPanelLessonMode buttonPanelGameMode = Instantiate<ButtonPanelLessonMode>(this.buttonLessonPrefab);
                     buttonPanelGameMode.transform.SetParent(contentScrollView);
                     buttonPanelGameMode.transform.localScale = Vector3.one;
+
+                    RectTransform rectTransform = buttonPanelGameMode.GetComponent<RectTransform>();
+                    Vector3 newPosition = rectTransform.anchoredPosition3D;
+                    newPosition.z = 0; // Set giá trị Z mong muốn
+                    rectTransform.anchoredPosition3D = newPosition;
+
+                    //buttonPanelGameMode.GetComponent<RectTransform>().
                     buttonPanelGameMode.SetData($"Lesson {count + 1}", idLesson, ButtonPanelLessonMode.State.Lock);
                     dicButtonPabelLessonMode.Add(idLesson, buttonPanelGameMode);
                 }
