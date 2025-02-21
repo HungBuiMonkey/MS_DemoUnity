@@ -322,10 +322,11 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
         string dataJson = textAsset.text;
         if (!string.IsNullOrEmpty(dataJson))
         {
+            Debug.Log($"Path: GetDataWordById {localPath}.bundle success");
             var word = JsonConvert.DeserializeObject<DataModel.Word>(dataJson.ToString());
             return word;
         }
-        Debug.Log($"Path: {localPath}.bundle not null");
+        Debug.Log($"Path: GetDataWordById {localPath}.bundle null");
         return null;
     }
 
@@ -357,10 +358,11 @@ public class LessonModeController : MonoBehaviour, EventListener<UserActionChane
     {
         if (!System.IO.File.Exists(path))
         {
-            Debug.Log($"Path: {path} not file");
+            Debug.Log($"Path ReadFileJson: {path} not file");
             return "";
         }
 
+        Debug.Log($"Path ReadFileJson: {path} success");
         return File.ReadAllText(path);
     }
 
